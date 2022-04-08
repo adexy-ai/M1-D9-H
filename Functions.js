@@ -43,9 +43,9 @@ console.log("\n",sum)
 
 /* WRITE YOUR ANSWER HERE */
 function crazyDiff(num) {
-    if (num > 19); {
-        console.log("\nThe difference between the function argument and 19 is", num - 19)
-        console.log("\nThe tripple value of the absolute difference is", (num - 19) * 3)
+    if (num > 19) {
+        //console.log("\nThe difference between the function argument and 19 is", num - 19)
+        return (num - 19) * 3
     }
 }
 crazyDiff(20)
@@ -56,13 +56,13 @@ crazyDiff(20)
 
 /* WRITE YOUR ANSWER HERE */
 function boundary(n) {
-    if (n >= 20 && n <= 100) {
+    if (n >= 20 && n <= 100 || n === 400) {
         return true
     } else {
         return false
     }
-};
-boundary(30);
+}
+boundary(30)
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
@@ -98,7 +98,7 @@ check3and7(20)
 /* WRITE YOUR ANSWER HERE */
 function reverseString(name) {
     let i = 0
-    while (i < name.lenght) {
+    while (i < name.lenght.) {
         console.log("This is the reverse of the parameter given", name[i])
     }
 }
@@ -108,7 +108,10 @@ reverseString("strive")
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+function upperFirst(string) {
+    return string.toUpperCase(" ")
+}
+upperFirst("Aderiy is participating in epicode bootcamp")
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
